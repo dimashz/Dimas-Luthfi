@@ -1,0 +1,402 @@
+{
+	"info": {
+		"_postman_id": "512cea6c-cb6a-404f-a77d-a967de8ea3f8",
+		"name": "utsbuku",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39469042"
+	},
+	"item": [
+		{
+			"name": "http://localhost/buku/bUKU_api.php",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/buku/bUKU_api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"buku",
+						"bUKU_api.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/buku/bUKU_api.php",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/buku/bUKU_api.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"buku",
+								"bUKU_api.php"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 05:50:39 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.4.12"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "393"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"title\": \"Kailono the piggy\",\n        \"author\": \"Kailana\",\n        \"stock\": 10,\n        \"year\": 2022\n    },\n    {\n        \"id\": 2,\n        \"title\": \"Iwan the piggy\",\n        \"author\": \"Cik irwan\",\n        \"stock\": 11,\n        \"year\": 2021\n    },\n    {\n        \"id\": 3,\n        \"title\": \"Tegur the piggy\",\n        \"author\": \"Tegar\",\n        \"stock\": 12,\n        \"year\": 2020\n    },\n    {\n        \"id\": 4,\n        \"title\": \"Brian guru agomo\",\n        \"author\": \"Nugroho\",\n        \"stock\": 13,\n        \"year\": 2019\n    },\n    {\n        \"id\": 5,\n        \"title\": \"Barca menang \",\n        \"author\": \"Xavi hernandes\",\n        \"stock\": 14,\n        \"year\": 2040\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/buku/buku_api.php/3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost/buku/buku_api.php/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"buku",
+						"buku_api.php",
+						"3"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/buku/buku_api.php/3",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/buku/buku_api.php/3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"buku",
+								"buku_api.php",
+								"3"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 05:53:37 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.4.12"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "74"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 3,\n    \"title\": \"Tegur the piggy\",\n    \"author\": \"Tegar\",\n    \"stock\": 12,\n    \"year\": 2020\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/buku/buku_api.php",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"RANTI MINION\",\r\n    \"author\": \"Ranti Nurmala\",\r\n    \"stock\":\"22\",\r\n    \"year\": 2015\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/buku/buku_api.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"buku",
+						"buku_api.php"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/buku/buku_api.php",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"RANTI MINION\",\r\n    \"author\": \"Ranti Nurmala\",\r\n    \"stock\":\"22\",\r\n    \"year\": 2015\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/buku/buku_api.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"buku",
+								"buku_api.php"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 06:06:43 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.4.12"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "35"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Book created\",\n    \"id\": \"7\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost/buku/buku_api.php/7",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Ranti Minion Kecil\",\r\n    \"author\": \"Ranti Nurmala\",\r\n    \"stock\": \"34\",\r\n    \"year\": 2015\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/buku/buku_api.php/7",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"buku",
+						"buku_api.php",
+						"7"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost/buku/buku_api.php/7",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Ranti Minion Kecil\",\r\n    \"author\": \"Ranti Nurmala\",\r\n    \"stock\": \"34\",\r\n    \"year\": 2015\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/buku/buku_api.php/7",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"buku",
+								"buku_api.php",
+								"7"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Mon, 04 Nov 2024 06:13:18 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.4.12"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.12"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+						},
+						{
+							"key": "Content-Length",
+							"value": "26"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Book updated\"\n}"
+				}
+			]
+		}
+	]
+}
